@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/DamianGoraj/Desktop/APBD_cw3/APBD_cw3/CW3/CW3/CW3.csproj": {}
+    "/Users/DamianGoraj/Desktop/APB_4/CW3_APBD/CW3/CW3/CW3.csproj": {}
   },
   "projects": {
-    "/Users/DamianGoraj/Desktop/APBD_cw3/APBD_cw3/CW3/CW3/CW3.csproj": {
+    "/Users/DamianGoraj/Desktop/APB_4/CW3_APBD/CW3/CW3/CW3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/DamianGoraj/Desktop/APBD_cw3/APBD_cw3/CW3/CW3/CW3.csproj",
+        "projectUniqueName": "/Users/DamianGoraj/Desktop/APB_4/CW3_APBD/CW3/CW3/CW3.csproj",
         "projectName": "CW3",
-        "projectPath": "/Users/DamianGoraj/Desktop/APBD_cw3/APBD_cw3/CW3/CW3/CW3.csproj",
+        "projectPath": "/Users/DamianGoraj/Desktop/APB_4/CW3_APBD/CW3/CW3/CW3.csproj",
         "packagesPath": "/Users/DamianGoraj/.nuget/packages/",
-        "outputPath": "/Users/DamianGoraj/Desktop/APBD_cw3/APBD_cw3/CW3/CW3/obj/",
+        "outputPath": "/Users/DamianGoraj/Desktop/APB_4/CW3_APBD/CW3/CW3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/DamianGoraj/.config/NuGet/NuGet.Config"
@@ -35,6 +35,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
